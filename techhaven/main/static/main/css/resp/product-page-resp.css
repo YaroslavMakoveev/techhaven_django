@@ -1,0 +1,164 @@
+@media only screen and (max-width: 375px) {
+    .flex-container {
+      max-width: 375px;
+    }
+    .burger-menu {
+        display: block;
+    }
+    header {
+      max-width: 375px;
+    }
+
+    .header{
+      padding: 50px 10px;
+      height: 500px;
+    }
+  
+    .links {
+      display: none;
+      flex-direction: column;
+      background-color: #333;
+      position: absolute;
+      top: 50px;
+      left: 0;
+      width: 100%;
+      z-index: 1;
+    }
+  
+    .links.show {
+        display: flex;
+    }
+  
+    .links li {
+      margin: 10px;
+      text-align: center;
+    }
+
+    /*MAIN*/
+
+    .product {
+        display: block;
+    }
+
+    .product-img {
+        width: 375px;
+        height: 350px;
+        margin-top: 20px;
+        margin-left: 40px;
+    }
+    .product-description {
+        margin: 10px 20px;
+    }
+
+    .description-price {
+        text-align: center;
+    }
+
+    .description-head {
+        font-size: 20px;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .product-img img{
+        width: 300px;
+        height: 350px;
+    }
+
+    .cont {
+        margin-top: 0;
+        display: block;
+    }
+
+    .counter {
+        position: absolute;
+        bottom: 30px;
+    }
+
+    .cont_p {
+        position: absolute;
+        bottom: 50px;
+    }
+
+    .descriptoin-btn {
+        position: absolute;
+        bottom: -50px;
+        left: 80px;
+    }
+
+    .interesting-catalog {
+        display: block;
+        margin: 0 auto;
+        width: 305px;
+    }
+
+    .interesting-head {
+        text-align: center;
+        margin-left: 0;
+        margin-top: 150px;
+        margin-bottom: 30px;
+    }
+
+    .head {
+        margin-top: 10px;
+    }
+
+    .price {
+        margin-bottom: 30px;
+    }
+    
+
+    footer {
+      height: 400px;
+    }
+
+    .footer-links {
+      display: none;
+    }
+
+    .footer-2 {
+      display: block;
+    }
+
+    .footer-links {
+      margin: 0;
+    }
+
+    .footer-links2 {
+      display: block;
+    }
+
+    .footer-form-content {
+      width: 300px;
+      top: -50px;
+
+      text-align: center;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    .footer-input-email {
+      width: 180px;
+      margin-left: 20px;
+    }
+
+    .footer-email-btn {
+      padding: 16.8px 32px 16.5px 32px;
+    }
+
+    .footer-3 {
+      max-width: 375px;
+      display: block;
+      text-align: center;
+    }
+
+    .copy {
+      margin-left: 20px;
+    }
+
+    .socials {
+      margin: 0;
+      justify-content: center;
+      margin-top: 20px;
+    }
+  }

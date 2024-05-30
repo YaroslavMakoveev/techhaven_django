@@ -1,0 +1,140 @@
+@media (max-width: 375px) {
+    .flex-container {
+      max-width: 375px;
+    }
+    .burger-menu {
+        display: block;
+    }
+    header {
+      max-width: 375px;
+    }
+  
+    .links {
+      display: none;
+      flex-direction: column;
+      background-color: #333;
+      position: absolute;
+      top: 50px;
+      left: 0;
+      width: 100%;
+      z-index: 1;
+    }
+  
+    .links.show {
+        display: flex;
+      }
+  
+    .links li {
+      margin: 10px;
+      text-align: center;
+    }
+    .head {
+        text-align: center;
+    }
+
+    .line {
+        width: 375px;
+    }
+
+    .head-elements {
+        margin-left: 40px
+    }
+    
+    .line2 {
+        width: 375px;
+    }
+
+    .kolvo {
+        display: none;
+    }
+
+    .product-price {
+        display: none;
+    }
+
+    .product-block {
+        display: block;
+        margin-left: 20px;
+    }
+
+    .counter {
+        margin-left: 200px;
+        margin-top: -30px;
+    }
+
+    .product-end-price {
+        display: block;
+    }
+
+    .pricing-information {
+        margin-right: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .pricing-information-end {
+        top: -10px;
+        right: 100px;
+    }
+
+    .pricing-information-btn {
+        text-align: center;
+        right: -30px;
+        width: 390px
+    }
+    
+
+    footer {
+      height: 400px;
+    }
+
+    .footer-links {
+      display: none;
+    }
+
+    .footer-2 {
+      display: block;
+    }
+
+    .footer-links {
+      margin: 0;
+    }
+
+    .footer-links2 {
+      display: block;
+    }
+
+    .footer-form-content {
+      width: 300px;
+      top: -50px;
+
+      text-align: center;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    .footer-input-email {
+      width: 180px;
+      margin-left: 20px;
+    }
+
+    .footer-email-btn {
+      padding: 16.8px 32px 16.5px 32px;
+    }
+
+    .footer-3 {
+      max-width: 375px;
+      display: block;
+      text-align: center;
+    }
+
+    .copy {
+      margin-left: 20px;
+    }
+
+    .socials {
+      margin: 0;
+      justify-content: center;
+      margin-top: 20px;
+    }
+  }
